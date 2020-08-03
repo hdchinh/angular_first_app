@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-app"
+    }
+  },
+  "defaultProject": "my-app",
+  "cli": {
+    "analytics": "12799732-5406-4a99-82c6-9b228d5fa156"
+  }
 }
