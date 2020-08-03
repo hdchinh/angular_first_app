@@ -301,9 +301,12 @@
 <div class="content" role="main">
 
 
-  <app-heroes></app-heroes>
-  <app-messages></app-messages>
-
+  <h1>{{title}}</h1>
+  <nav>
+    <a routerLink="/dashboard" style="margin-right: 10px;">Dashboard</a>
+    <a routerLink="/heroes">Heroes</a>
+  </nav>
+  <router-outlet></router-outlet>
 
 
   <svg id="clouds" alt="Gray Clouds Background" xmlns="http://www.w3.org/2000/svg" width="2611.084" height="485.677" viewBox="0 0 2611.084 485.677">
